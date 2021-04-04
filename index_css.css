@@ -1,0 +1,271 @@
+		.body{
+			margin: 0;
+		}	
+
+		.header{
+			width: 100%;
+			/*height: 10%;*/
+			/*background-color: #f1f1f1;*/
+			background-color: #1b141a;
+			position: relative;
+			/*position: fixed;*/
+		}
+
+		.header .menu-bar{
+			float: right;
+			width: 70%;
+			position: absolute;
+			top: 30%;
+			right: 0;
+		}
+
+		.menu-bar a{
+			color: white;
+			font-size: 20px;
+			padding: 5%;
+			text-decoration: none;
+			/*vertical-align: middle;*/
+		}
+
+		.menu-bar a:hover{
+			color: #a366ff;
+			transition: linear 0.5s;
+		}
+
+		.profile{
+			/*background-color: #f1f1f1;*/
+			background-color: #1b141a;
+			min-height: 100%;
+			text-align: center;
+			margin-top: 3%;
+			font-family: 'Raleway', sans-serif;
+			padding: 4%;
+		}
+
+		.profile .profile-details{
+			color: white;
+		}
+
+		.dp img{
+			border-radius: 50%;
+		}
+
+		.social a{
+			padding: 1%;
+			font-size: 20px;
+			color: #a366ff;
+		}
+
+		.social i:hover{
+			transition: linear 0.5s;
+			color: red;
+		}
+
+		.about{
+			margin-top: 5%; 
+			display: grid;
+			grid-template-columns: 2.5fr 2fr;
+			font-family: 'Raleway', sans-serif;
+		}
+
+		.about .about-details{
+			background-color: #1b141a;
+			padding: 20%;
+		}
+
+		.about .about-details p{
+			color: #f1f1f1;
+		}
+
+		.about .about-picture{
+			background-color: #1b141a;
+			text-align: center;
+		}
+
+		.about img{
+			margin-top: 10%;
+		}
+
+		.skill-rack{
+			margin-top: 5%;
+			background-color: #1b141a;
+			display: grid;
+			grid-template-columns: 2.5fr 2.5fr;
+			padding: 5%;
+		}
+
+		.skill-rack .skill-icon{
+			color: white;
+			text-align: center;
+		}
+
+		.skill-rack h1{
+			margin-top: 40%;
+		}
+
+		.my-skill{
+			font-family: 'Raleway', sans-serif;
+			/*padding-left: 30%;*/
+			color: white;
+		}
+
+		.container {
+		  width: 90%;
+		  background-color: #ddd;
+		}
+
+		.skills {
+
+		  text-align: right;
+		  padding-top: 10px;
+		  padding-bottom: 10px;
+		  color: white;
+		}
+
+		.html {width: 90%; background-color: #4CAF50;}
+		.css {width: 80%; background-color: #2196F3;}
+		.java {width: 75%; background-color: #f44336;}
+		.sql {width: 70%; background-color: #839390;}
+		.c {width: 60%; background-color: grey;}
+
+		.container .skills:hover{
+			  color: #fff;
+			  text-align: center;
+			  animation: glow 1s ease-in-out infinite alternate;
+		}
+
+		@-webkit-keyframes glow {
+		  from {
+		    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+		  }
+		  
+		  to {
+		    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+		  }
+		}
+
+		.certificates{
+			margin-top: 5%;
+			background-color: #1b141a;
+			display: grid;
+			grid-template-columns: 2.5fr 2.5fr;
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+			color: white;
+			padding: 10%;
+		}
+
+		.certificates .certificates-details{
+			margin-left: 10%;
+			border-style: solid;
+		}
+
+		.certificates .certificates-name{
+			margin-top: 10%;
+		}
+
+		.project{
+			background-color: black;
+			margin-top: 5%;
+			padding: 5% 10%;
+			color: white;
+		}
+
+		.project .remote{
+			background-color: #1b141a;
+			font-family: 'Raleway', sans-serif;
+			color: white;
+			padding: 10px;
+		}
+
+		.project a{
+			text-decoration: none;
+		}
+
+		.project a div:hover{
+			background-color: #fff;
+			color: black;
+			transition: linear 0.5s;
+			transform: scale(1.1);
+		}
+
+		.remote h1{
+			text-align: center;
+		}
+
+		.remote p{
+			font-size: 20px;
+			padding:0px 30px;
+		}
+
+		.remote h3{
+			padding: 0px 30px;
+		}
+
+		.remote ol li{
+			list-style-type: none;
+		}
+
+		.project .attend{
+			margin-top: 5%;
+			background-color: yellow;
+		}
+
+		.contact{
+			display: grid;
+			grid-template-columns: 2.5fr 2.5fr;
+			background-color: #1b141a;
+			padding: 0% 5%;
+			color: white;
+			font-family: 'Raleway', sans-serif;
+		}
+
+
+		.contact .me{
+			padding-top: 10%;
+		}
+
+		.contact .me h3{
+			margin-left: 10%;
+		}
+
+		.contact a{
+			font-size: 30px;
+			padding-right: 20px;
+			margin-left: 10%;
+			color: #a366ff;
+		}
+
+		.contact a:hover{
+			color: #550080;
+			transition: linear 0.5s;
+		}
+
+		.contact .share{
+			font-family: 'Raleway', sans-seri;
+			padding: 20px;
+		}
+
+		.share .share-form{
+			margin-left: 10%;
+		}
+
+		input[type=text] {
+		  width: 50%;
+		  padding: 10px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		}
+		input[type=mail] {
+		  width: 50%;
+		  padding: 10px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		}
+		input[type=submit] {
+		  width: 20%;
+		  padding: 6px 10px;
+		  margin: 5px 0;
+		  box-sizing: border-box;
+		  font-family:  'Raleway', sans-seri;
+		}
